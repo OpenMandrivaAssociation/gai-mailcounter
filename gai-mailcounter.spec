@@ -57,7 +57,7 @@ Icon=%{name}
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=X-MandrivaLinux-Internet-Mail
+Categories=X-MandrivaLinux-Internet-Mail;
 EOF
 
 %clean
