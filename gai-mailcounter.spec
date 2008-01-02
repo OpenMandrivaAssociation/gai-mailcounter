@@ -13,6 +13,7 @@ Source: http://prdownloads.sourceforge.net/gai/%{name}-%{version}.tar.bz2
 Source10:   %{name}-16.png
 Source11:   %{name}-32.png
 Source12:   %{name}-48.png
+BuildRoot: %{_tmppath}/build-root-%{name}
 
 BuildRequires: automake >= 1.4
 BuildRequires: libgai-devel >= 0.5
