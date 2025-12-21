@@ -15,6 +15,9 @@ Source11:   %{name}-32.png
 Source12:   %{name}-48.png
 BuildRoot: %{_tmppath}/build-root-%{name}
 
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: automake >= 1.4
 BuildRequires: libgai-devel >= 0.5
 
