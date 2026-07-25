@@ -1,6 +1,6 @@
 %define name gai-mailcounter
 %define version 0.4
-%define release %mkrel 8
+%define release 9
 
 Name: %name
 Summary: A GAI applet displaying the status of the local mailbox
